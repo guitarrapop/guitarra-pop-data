@@ -57,6 +57,71 @@
       ],
 
       "cejillas": []
+    },
+   
+    {
+  "id": "F_mayor_posicion_1",
+
+  "raiz": "F",
+  "tipo": "mayor",
+  "extension": null,
+  "agregado": null,
+  "alteracion": null,
+  "bajo": null,
+  "posicion": 1,
+
+  "nombre": "F",
+  "nombreLargo": "Fa Mayor",
+
+  "trasteInicial": 1,
+
+  "cuerdas": [
+    {
+      "cuerda": 6,
+      "estado": "pisada",
+      "traste": 1,
+      "dedo": 1
+    },
+    {
+      "cuerda": 5,
+      "estado": "pisada",
+      "traste": 3,
+      "dedo": 3
+    },
+    {
+      "cuerda": 4,
+      "estado": "pisada",
+      "traste": 3,
+      "dedo": 4
+    },
+    {
+      "cuerda": 3,
+      "estado": "pisada",
+      "traste": 2,
+      "dedo": 2
+    },
+    {
+      "cuerda": 2,
+      "estado": "pisada",
+      "traste": 1,
+      "dedo": 1
+    },
+    {
+      "cuerda": 1,
+      "estado": "pisada",
+      "traste": 1,
+      "dedo": 1
     }
+  ],
+
+  "cejillas": [
+    {
+      "traste": 1,
+      "desdeCuerda": 6,
+      "hastaCuerda": 1,
+      "dedo": 1
+    }
+  ]
+}
   ]
 }
