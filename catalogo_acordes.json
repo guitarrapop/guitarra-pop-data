@@ -1,175 +1,288 @@
 {
-  "version": 1,
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "updatedAt": "2026-08-10",
+  "app": "Guitarra Pop",
+
+  "configuracion": {
+    "instrumento": "guitarra",
+    "numeroCuerdas": 6,
+    "afinacion": ["E", "A", "D", "G", "B", "E"],
+    "orientacion": "frontal_maestro"
+  },
+
+  "asistente": {
+    "ordenCategorias": [
+      "raiz",
+      "tipo",
+      "extension",
+      "agregado",
+      "alteracion",
+      "bajo",
+      "posicion"
+    ],
+
+    "raices": [
+      {
+        "id": "C",
+        "nombre": "Do"
+      },
+      {
+        "id": "C#",
+        "nombre": "Do#"
+      },
+      {
+        "id": "D",
+        "nombre": "Re"
+      },
+      {
+        "id": "Eb",
+        "nombre": "Mib"
+      },
+      {
+        "id": "E",
+        "nombre": "Mi"
+      },
+      {
+        "id": "F",
+        "nombre": "Fa"
+      },
+      {
+        "id": "F#",
+        "nombre": "Fa#"
+      },
+      {
+        "id": "G",
+        "nombre": "Sol"
+      },
+      {
+        "id": "Ab",
+        "nombre": "Lab"
+      },
+      {
+        "id": "A",
+        "nombre": "La"
+      },
+      {
+        "id": "Bb",
+        "nombre": "Sib"
+      },
+      {
+        "id": "B",
+        "nombre": "Si"
+      }
+    ],
+
+    "tipos": [],
+    "extensiones": [],
+    "agregados": [],
+    "alteraciones": [],
+    "bajos": [],
+    "posiciones": []
+  },
+
   "acordes": [
     {
       "id": "C_mayor_posicion_1",
-      "raiz": "C",
-      "tipo": "mayor",
-      "extension": null,
-      "agregado": null,
-      "alteracion": null,
-      "bajo": null,
-      "posicion": 1,
+
+      "selector": {
+        "raiz": "C",
+        "tipo": "mayor",
+        "extension": null,
+        "agregado": null,
+        "alteracion": null,
+        "bajo": null,
+        "posicion": 1
+      },
+
       "nombre": "C",
       "nombreLargo": "Do Mayor",
-      "trasteInicial": 1,
-      "cuerdas": [
-        {
-          "cuerda": 6,
-          "estado": "mute",
-          "traste": null,
-          "dedo": null
-        },
-        {
-          "cuerda": 5,
-          "estado": "pisada",
-          "traste": 3,
-          "dedo": 3
-        },
-        {
-          "cuerda": 4,
-          "estado": "pisada",
-          "traste": 2,
-          "dedo": 2
-        },
-        {
-          "cuerda": 3,
-          "estado": "abierta",
-          "traste": 0,
-          "dedo": null
-        },
-        {
-          "cuerda": 2,
-          "estado": "pisada",
-          "traste": 1,
-          "dedo": 1
-        },
-        {
-          "cuerda": 1,
-          "estado": "abierta",
-          "traste": 0,
-          "dedo": null
-        }
-      ],
-      "cejillas": []
+      "alias": ["C"],
+
+      "diagrama": {
+        "trasteInicial": 1,
+
+        "cuerdas": [
+          {
+            "cuerda": 6,
+            "estado": "mute",
+            "traste": null,
+            "dedo": null
+          },
+          {
+            "cuerda": 5,
+            "estado": "pisada",
+            "traste": 3,
+            "dedo": 3
+          },
+          {
+            "cuerda": 4,
+            "estado": "pisada",
+            "traste": 2,
+            "dedo": 2
+          },
+          {
+            "cuerda": 3,
+            "estado": "abierta",
+            "traste": 0,
+            "dedo": null
+          },
+          {
+            "cuerda": 2,
+            "estado": "pisada",
+            "traste": 1,
+            "dedo": 1
+          },
+          {
+            "cuerda": 1,
+            "estado": "abierta",
+            "traste": 0,
+            "dedo": null
+          }
+        ],
+
+        "cejillas": []
+      }
     },
+
     {
       "id": "F_mayor_posicion_1",
-      "raiz": "F",
-      "tipo": "mayor",
-      "extension": null,
-      "agregado": null,
-      "alteracion": null,
-      "bajo": null,
-      "posicion": 1,
+
+      "selector": {
+        "raiz": "F",
+        "tipo": "mayor",
+        "extension": null,
+        "agregado": null,
+        "alteracion": null,
+        "bajo": null,
+        "posicion": 1
+      },
+
       "nombre": "F",
       "nombreLargo": "Fa Mayor",
-      "trasteInicial": 1,
-      "cuerdas": [
-        {
-          "cuerda": 6,
-          "estado": "pisada",
-          "traste": 1,
-          "dedo": 1
-        },
-        {
-          "cuerda": 5,
-          "estado": "pisada",
-          "traste": 3,
-          "dedo": 3
-        },
-        {
-          "cuerda": 4,
-          "estado": "pisada",
-          "traste": 3,
-          "dedo": 4
-        },
-        {
-          "cuerda": 3,
-          "estado": "pisada",
-          "traste": 2,
-          "dedo": 2
-        },
-        {
-          "cuerda": 2,
-          "estado": "pisada",
-          "traste": 1,
-          "dedo": 1
-        },
-        {
-          "cuerda": 1,
-          "estado": "pisada",
-          "traste": 1,
-          "dedo": 1
-        }
-      ],
-      "cejillas": [
-        {
-          "traste": 1,
-          "desdeCuerda": 6,
-          "hastaCuerda": 1,
-          "dedo": 1
-        }
-      ]
+      "alias": ["F"],
+
+      "diagrama": {
+        "trasteInicial": 1,
+
+        "cuerdas": [
+          {
+            "cuerda": 6,
+            "estado": "pisada",
+            "traste": 1,
+            "dedo": 1
+          },
+          {
+            "cuerda": 5,
+            "estado": "pisada",
+            "traste": 3,
+            "dedo": 3
+          },
+          {
+            "cuerda": 4,
+            "estado": "pisada",
+            "traste": 3,
+            "dedo": 4
+          },
+          {
+            "cuerda": 3,
+            "estado": "pisada",
+            "traste": 2,
+            "dedo": 2
+          },
+          {
+            "cuerda": 2,
+            "estado": "pisada",
+            "traste": 1,
+            "dedo": 1
+          },
+          {
+            "cuerda": 1,
+            "estado": "pisada",
+            "traste": 1,
+            "dedo": 1
+          }
+        ],
+
+        "cejillas": [
+          {
+            "traste": 1,
+            "desdeCuerda": 6,
+            "hastaCuerda": 1,
+            "dedo": 1
+          }
+        ]
+      }
     },
+
     {
       "id": "G_mayor_posicion_1",
-      "raiz": "G",
-      "tipo": "mayor",
-      "extension": null,
-      "agregado": null,
-      "alteracion": null,
-      "bajo": null,
-      "posicion": 1,
+
+      "selector": {
+        "raiz": "G",
+        "tipo": "mayor",
+        "extension": null,
+        "agregado": null,
+        "alteracion": null,
+        "bajo": null,
+        "posicion": 1
+      },
+
       "nombre": "G",
       "nombreLargo": "Sol Mayor",
-      "trasteInicial": 3,
-      "cuerdas": [
-        {
-          "cuerda": 6,
-          "estado": "pisada",
-          "traste": 3,
-          "dedo": 1
-        },
-        {
-          "cuerda": 5,
-          "estado": "pisada",
-          "traste": 5,
-          "dedo": 3
-        },
-        {
-          "cuerda": 4,
-          "estado": "pisada",
-          "traste": 5,
-          "dedo": 4
-        },
-        {
-          "cuerda": 3,
-          "estado": "pisada",
-          "traste": 4,
-          "dedo": 2
-        },
-        {
-          "cuerda": 2,
-          "estado": "pisada",
-          "traste": 3,
-          "dedo": 1
-        },
-        {
-          "cuerda": 1,
-          "estado": "pisada",
-          "traste": 3,
-          "dedo": 1
-        }
-      ],
-      "cejillas": [
-        {
-          "traste": 3,
-          "desdeCuerda": 6,
-          "hastaCuerda": 1,
-          "dedo": 1
-        }
-      ]
+      "alias": ["G"],
+
+      "diagrama": {
+        "trasteInicial": 3,
+
+        "cuerdas": [
+          {
+            "cuerda": 6,
+            "estado": "pisada",
+            "traste": 3,
+            "dedo": 1
+          },
+          {
+            "cuerda": 5,
+            "estado": "pisada",
+            "traste": 5,
+            "dedo": 3
+          },
+          {
+            "cuerda": 4,
+            "estado": "pisada",
+            "traste": 5,
+            "dedo": 4
+          },
+          {
+            "cuerda": 3,
+            "estado": "pisada",
+            "traste": 4,
+            "dedo": 2
+          },
+          {
+            "cuerda": 2,
+            "estado": "pisada",
+            "traste": 3,
+            "dedo": 1
+          },
+          {
+            "cuerda": 1,
+            "estado": "pisada",
+            "traste": 3,
+            "dedo": 1
+          }
+        ],
+
+        "cejillas": [
+          {
+            "traste": 3,
+            "desdeCuerda": 6,
+            "hastaCuerda": 1,
+            "dedo": 1
+          }
+        ]
+      }
     }
   ]
 }
